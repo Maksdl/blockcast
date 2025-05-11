@@ -11,6 +11,7 @@ sudo usermod -aG docker $USER
 
 # Запускаем Docker
 echo "🚀 Запускаем Docker..."
+sudo systemctl enable docker
 sudo systemctl start docker
 
 # Клонируем Blockcast и запускаем контейнеры
