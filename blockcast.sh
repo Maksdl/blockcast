@@ -9,5 +9,6 @@ sudo bash -c '
     docker compose up -d
     docker compose exec blockcastd blockcastd init
 '
-
+# Открываем порт
+sudo ufw allow 8080
 
