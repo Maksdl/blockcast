@@ -23,4 +23,4 @@ sudo bash -c '
     docker compose exec blockcastd blockcastd init
 '
 
-echo "✅ Всё готово! Docker и Blockcast успешно установлены."
+
